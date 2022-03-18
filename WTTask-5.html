@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head><title>WT-Task:5</title></head>
+    <body>
+        <form>
+            <table align="center" border="1" cellspacing="0" cellpadding="2">
+                <tr>
+                    <th colspan="3">Purchase Bill</th>
+                    <th colspan="2" style="text-align:right">Date : 
+                        <input type="date" name="userdate"/>
+                    </th>                   
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Vender : <textarea rows="3" cols="31"></textarea>
+                    </td>
+                    <td colspan="3">
+                        Ship to : <textarea rows="3" cols="66"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Qty.</td>
+                    <td>Item Code</td>
+                    <td>Remarks</td>
+                    <td>Unit Price</td>
+                    <td>Total</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="userquantity"/>
+                    </td>
+                    <td>
+                        <select name="itemcode">
+                            <option>---Select Code---</option>
+                            <option>DL-101</option>
+                            <option>AZ-087</option>
+                            <option>WY-999</option>
+                            <option>YT-354</option>
+                            <option>WTF-001</option>                          
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="userremarks"/>
+                    </td>
+                    <td>
+                        <input type="text" name="userunitmarks" size="23"/>
+                    </td>
+                    <td>
+                        <input type="text" name="usertotal"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="userquantity"/>
+                    </td>
+                    <td>
+                        <select name="itemcode">
+                            <option>---Select Code---</option>
+                            <option>Aa-900</option>
+                            <option>Ba-879</option>
+                            <option>Ca-999</option>
+                            <option>Da-777</option>
+                            <option>Ea-001</option>                          
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="userremarks2"/>
+                    </td>
+                    <td>
+                        <input type="text" name="userunitmarks2" size="23"/>
+                    </td>
+                    <td>
+                        <input type="text" name="usertotal2"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align:center">SubTotal</td>
+                    <td colspan="2">
+                        <input type="text" name="usersubTotal" size="50px"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center">Tax</td>
+                    <td>
+                        <input type="text" name="userTax"/>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="userTax2" size="50px"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align:right">Grand Total : </td>
+                    <td colspan="2">
+                        <input type="text" name="userGrandTotal" size="50px"/>
+                    </td>
+                </tr>           
+            </table>
+        </form>
+    </body>
+</html>
